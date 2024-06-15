@@ -27,10 +27,10 @@ Certacablock leverages blockchain technology to provide a secure and tamper-proo
 To run Certacablock locally or deploy it on a network, follow these steps:
 
 1. **Clone Repository:**
-   
+   ```
    git clone https://github.com/your-username/certacablock.git
    cd certacablock
-
+    ```
 2. **Install Dependencies:**
 - Install necessary dependencies (if any) for deployment scripts or frontend (if applicable).
 
@@ -53,6 +53,26 @@ To run Certacablock locally or deploy it on a network, follow these steps:
 - Example transactions: issuing certificates, verifying certificates.
 
 ## Deploying the Smart Contract
+
+### Development with Hardhat
+
+1. **Compile Smart Contracts:**
+- Use Hardhat for compiling your smart contracts. Place your `Certacablock.sol` file in the `contracts/` directory.
+  ```
+  npx hardhat compile
+  ```
+
+2. **Deploy Smart Contracts:**
+- Configure your deployment scripts (`deploy.js`) in the `scripts/` directory using Hardhat.
+  - Update the `deploy.js` script with deployment logic, including network configurations (e.g., Base Sepolia).
+  - Example deployment command:
+    ```
+    npx hardhat run scripts/deploy.js --network baseSepolia
+    ```
+
+3. **Interacting with the Contract:**
+- Use Hardhat or a custom frontend to interact with the deployed smart contract.
+- Perform actions such as issuing certificates or verifying their authenticity.
 
 ### Using Remix
 
