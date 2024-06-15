@@ -32,11 +32,14 @@ To run Certacablock locally or deploy it on a network, follow these steps:
    cd certacablock
     ```
 2. **Install Dependencies:**
-- Install necessary dependencies (if any) for deployment scripts or frontend (if applicable).
+- Ensure Node.js and npm are installed on your machine.
+- Install Hardhat for smart contract development:
+  ```
+  npm install --save-dev hardhat
+  ```
 
-3. **Setup Environment:**
-- Ensure you have Node.js and npm installed.
-- Configure your environment variables (if any) for deployment scripts or frontend.
+3. **Configure Environment:**
+- Set up necessary environment variables if needed for deployment scripts or frontend applications.
 
 ## Usage
 
