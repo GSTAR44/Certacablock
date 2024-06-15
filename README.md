@@ -28,6 +28,7 @@ Certacablock is a decentralized platform for issuing and verifying academic cert
    cd certacablock
 2. Install dependencies:
    npm install
+   
 #Deployment
 ##Compile the Smart Contract
 ###Compile the contract using Hardhat
