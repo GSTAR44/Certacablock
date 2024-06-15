@@ -1,0 +1,14 @@
+{
+  "name": "certacablock",
+  "version": "1.0.0",
+  "description": "Decentralized platform for issuing and verifying academic certificates using blockchain.",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.6.4"
+  }
+}
