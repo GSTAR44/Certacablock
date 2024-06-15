@@ -1,6 +1,6 @@
 # Contributing to Certacablock
 
-Thanks for your interest in contributing to Certacablock!
+Thanks for your interest in contributing to Certacablock :)
 
 ## How to Contribute
 
