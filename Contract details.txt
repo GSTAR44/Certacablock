@@ -1,1 +1,2 @@
+#this is on Base testnet. Possible to integrate in any othet Ethereum chain.
 Base Sepolia: 0xb5c65901c66d54ad5ab1ec3c8fa1332af54a3c43
