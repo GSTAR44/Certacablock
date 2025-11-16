@@ -1,6 +1,6 @@
 # Certacablock
 
-Certacablock is a decentralized application (dApp) built on Ethereum and compatible with any chain for issuing and verifying academic certificates on the blockchain.
+Certacablock is a decentralized application (dApp) built on Base/Ethereum and compatible with any chain for issuing and verifying academic certificates on the blockchain.
 
 ## Table of Contents
 
